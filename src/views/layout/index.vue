@@ -69,12 +69,12 @@ onMounted(() => {
 });
 
 const logout = () => {
-  ElMessageBox.confirm("确定要退出登录吗？", "提示", { 
+  ElMessageBox.confirm("确定退出登录吗？", "提示", { 
     confirmButtonText: "确定",
     cancelButtonText: "取消",
     type: "warning",
   }).then(() => {
-    ElMessage.success("退出成功");
+    ElMessage.success("退出成功~");
     localStorage.removeItem("loginUser");
     router.push("/login");
   }).catch(() => {
