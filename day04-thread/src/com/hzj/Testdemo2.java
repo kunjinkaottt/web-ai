@@ -12,7 +12,7 @@ public class Testdemo2 {
 
 class MyRunnable implements Runnable{
     public void run(){
-     for (int i = 0; i < 6; i++){
+     for (int i = 0; i < 7; i++){
          System.out.println("子线程："+i);
      }
     }
